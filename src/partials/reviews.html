@@ -3,12 +3,22 @@
   <h2 class="review-title">Reviews</h2>
   <ul class="review-list">
     <li class="review-item">
-      <article>
+      <article class="review-article">
         <picture>
-          <img src="#" alt="John" />
+          <source srcset="./# 1x, ./# 2x" media="(min-width: 1280px)" />
+          <source srcset="./# 1x, ./# 2x" media="(min-width: 768px)" />
+          <img
+            class="review-image"
+            srcset="
+              ../images/reviews/mobile-reviews/will1x.jpg  1x,
+              ../images/reviews/mobile-reviews/will@2x.jpg 2x
+            "
+            src="../images/reviews/mobile-reviews/will1x.jpg"
+            alt="John"
+          />
         </picture>
 
-        <h3>John</h3>
+        <h3 class="review-name">John</h3>
         <p>
           Last time I have visited a cooking course by Eva I was impressed with the way she
           explained everything to people. You can be sure you will manage to cook a delicious dish
@@ -18,11 +28,14 @@
       </article>
     </li>
     <li class="review-item">
-      <article>
+      <article class="review-article">
         <picture>
-          <img src="#" alt="Will" />
+          <source srcset="./# 1x, ./# 2x" media="(min-width: 1280px)" />
+          <source srcset="./# 1x, ./# 2x" media="(min-width: 768px)" />
+          <img class="review-image" srcset="./# 1x, ./# 2x" src="#" alt="Will" />
         </picture>
-        <h3>Will</h3>
+
+        <h3 class="review-name">Will</h3>
         <p>
           Last time I have visited a cooking course by Eva I was impressed with the way she
           explained everything to people. You can be sure you will manage to cook a delicious dish
@@ -32,11 +45,14 @@
       </article>
     </li>
     <li class="review-item">
-      <article>
+      <article class="review-article">
         <picture>
-          <img src="#" alt="Elisabeth" />
+          <source srcset="./# 1x, ./# 2x" media="(min-width: 1280px)" />
+          <source srcset="./# 1x, ./# 2x" media="(min-width: 768px)" />
+          <img class="review-image" srcset="./# 1x, ./# 2x" src="#" alt="Elisabeth" />
         </picture>
-        <h3>Elisabeth</h3>
+
+        <h3 class="review-name">Elisabeth</h3>
         <p>
           Last time I have visited a cooking course by Eva I was impressed with the way she
           explained everything to people. You can be sure you will manage to cook a delicious dish
