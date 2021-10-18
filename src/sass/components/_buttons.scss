@@ -1,10 +1,9 @@
 .buttons {
   width: 158px;
-  height: 45px;
-  background: #ab816c;
+  background: var(--buttons-star-dec);
   border-radius: 25px;
-  font-size: 24px;
-  line-height: 2.71;
   text-align: center;
   color: #ffffff;
+  font-family: var(--second-font-family), cursive;
+  border: none;
 }
