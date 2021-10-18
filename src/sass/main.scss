@@ -1,8 +1,10 @@
-
-@import './example';
+@import './utils/variables';
 
 @import './base/common';
 @import './base/container';
+
+@import './components/buttons';
+@import './components/titles';
 
 @import './layout/about-us';
 @import './layout/contacts';
@@ -12,5 +14,3 @@
 @import './layout/program';
 @import './layout/registration';
 @import './layout/reviews';
-
-@import './utils/variables';

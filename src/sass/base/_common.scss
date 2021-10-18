@@ -1,22 +1,7 @@
-.section {
-    padding-top: 94px;
-    padding-bottom: 94px;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  img {
-    width: 100%;
-    display: block;
-    height: auto;
-  }
-
-  *,
-*::after,
-*::before {
-  box-sizing: border-box;
+img {
+  width: 100%;
+  display: block;
+  height: auto;
 }
 
 h1,
@@ -41,28 +26,27 @@ p {
 }
 
 ul {
-  list-style-type: none;
   margin-top: 0px;
   margin-bottom: 0px;
-  margin-left: 0; /* Отступ слева в браузере IE и Opera */
   padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
 }
 
-p {
-  display: block;
-  margin-block-start: 0;
-  margin-block-end: 0;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  letter-spacing: 3%;
-}
-
 body {
-  font-family: "Montserat", sans-serif;
+  font-family: 'Montserat', sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--body-bg);
   background-color: var(--body-bg);
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
 }
