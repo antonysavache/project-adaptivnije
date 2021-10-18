@@ -3,8 +3,24 @@
 }
 
 .review-title {
-  margin-bottom: 12px;
+  margin-bottom: 14px;
   line-height: 1.2;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 8px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 22px;
+    font-size: 36px;
+  }
+}
+
+.review-list {
+  max-width: 626px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 1px solid red;
 }
 
 .review-image {
@@ -40,6 +56,7 @@
 }
 
 .review-text {
+  display: none;
   margin-bottom: 30px;
   font-size: 16px;
   text-align: center;
@@ -48,29 +65,55 @@
   // line-height: 20px;
 }
 
-// .review-number {
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
+// Стили для карусели
 
-//   text-align: center;
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
 
-//   color: #ab816c;
-//   // line-height: 17px;
+  & > li {
+    display: none;
+  }
 
-//   &::before,
-//   &::after {
-//     content: '';
-//     width: 35px;
-//     height: 1px;
-//     background-color: #ab816c;
-//   }
+  & > li.slick-active {
+    display: contents;
+  }
 
-//   &::before {
-//     margin-right: 12px;
-//   }
+  &::before,
+  &::after {
+    content: '';
+    width: 35px;
+    height: 1px;
+    background-color: #ab816c;
+  }
 
-//   &::after {
-//     margin-left: 12px;
-//   }
-// }
+  &::before {
+    margin-right: 12px;
+  }
+
+  &::after {
+    margin-left: 12px;
+  }
+}
+
+.slick-active > button {
+  background-color: transparent;
+  border-color: transparent;
+  color: #ab816c;
+
+  &::after {
+    content: '/15';
+  }
+}
+
+.slick-current .review-text {
+  display: block;
+}
+
+.slick-current .review-image {
+  max-width: 186px;
+}
+
+// Конец стилей для каруссели
