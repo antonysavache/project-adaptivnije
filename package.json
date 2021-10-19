@@ -3,10 +3,10 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://goitacademy.github.io/parcel-project-template",
+  "homepage": "https://antonysavache.github.io/project-adaptivnije/",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-project-template/"
+    "build": "parcel build src/*.html --public-url /project-adaptivnije/"
   },
   "repository": {
     "type": "git",
@@ -25,4 +25,5 @@
     "posthtml-include": "^1.6.2",
     "sass": "^1.32.8"
   }
+  
 }
