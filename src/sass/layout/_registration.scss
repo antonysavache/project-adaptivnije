@@ -1,0 +1,128 @@
+.registration {
+  margin-bottom: 11px;
+}
+
+.registration-time {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.22;
+  text-align: center;
+  margin-bottom: 25px;
+  width: 120px;
+  margin-left: auto;
+  margin-right: auto;
+
+  color: var(--text-icons);
+}
+
+.registration-price {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.22;
+  margin-bottom: 11px;
+
+  text-align: center;
+
+  color: var(--text-icons);
+}
+
+.registration-title {
+  position: relative;
+  padding-top: 10px;
+  padding-right: 40px;
+  padding-left: 40px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+  margin-bottom: 17px;
+
+  color: var(--text-icons);
+}
+
+.reg-div {
+    box-shadow: -4px -4px 4px rgba(171, 129, 108, 0.15), 4px 4px 4px rgba(171, 129, 108, 0.15);
+border-radius: 150px 150px 0 0;
+}
+
+.registration-title::before {
+  display: block;
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 1px;
+  background-color: rgba(171, 129, 108, 0.5);
+}
+
+.registration-input::placeholder {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.25;
+  color: rgba(171, 129, 108, 0.5);
+}
+
+.registration-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 47px;
+}
+
+
+
+
+.registration-input {
+  border: none;
+  width: 265px;
+  border-bottom: 1px solid #ab816c;
+  background-color: rgba(255, 255, 249, 1);
+}
+
+.registration-input:focus {
+  outline: none;
+}
+
+.registration-info-text:nth-child(1) {
+  margin-bottom: 25px;
+}
+
+.registration-info-text:nth-child(2) {
+  margin-bottom: 25px;
+}
+
+
+
+.registration-button {
+  margin-top: 37px;
+}
+
+
+
+
+
+// ========== CONTACT ============= //
+
+.contact {
+    margin-top: 74px;
+}
+
+.contact-button {
+    margin-top: 37px;
+  }
+
+  
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-text:nth-child(1) {
+    margin-bottom: 25px;
+  }
