@@ -1,27 +1,36 @@
 <header class="header-section">
     <div class="header-container container">
-    <nav><a href="" class="header-logo-link"><picture>
-        <source srcset=""/><img src="" alt=""><source srcset=""/><img src="" alt=""><source srcset=""/><img src="" alt=""></picture></a>
-    <div><ul class="header-nav-list">
+    <div class="header-flex"><nav class="header-nav"><a href="" class="header-logo-link"><picture>
+        <source srcset="./images/head/desktop/logo1x.png 1x, ./images/head/desktop/logo@2x.png 2x" media="(min-width:1200)"/>
+        <source srcset="./images/head/tablet/logo-main-1x.png 1x, ./images/head/tablet/logo-main-@2x.png 2x" media="(min-width:768)"/>
+        <source srcset="./images/head/mobile/logo1x.png 1x, ./images/head/mobile/logo@2x.png 2x"/>
+        <img class="header-logo" alt="Логотип компании"></picture></a>
+    <ul class="header-nav-list list">
         <li class="nav-item"><a href="" class="nav-link">About us</a></li>
         <li class="nav-item"><a href="" class="nav-link">Program</a></li>
         <li class="nav-item"><a href="" class="nav-link">Reviews</a></li>
         <li class="nav-item"><a href="" class="nav-link">Contacts</a></li>
-     </ul>
-    </div><button class="menu-btn">
-        <svg>
-            <use src="./images/sprite.svg#menu"/>
-        </svg></button></div>
+     </ul></nav>
+    <button class="menu-btn">
+        <svg class="menu-icon-btn">
+            <use href="./images/sprite.svg#menu"/>
+        </svg></button></div></div>
     <div class="mobile-menu">
         <button class="menu-btn">
     <svg>
-        <use src="./images/sprite.svg#icon-close" />
-    </svg></button>
-    <picture><source srcset=""/><img src="" alt=""></picture>
-    <ul class="mobile-menu-list">
+        <use href="./images/sprite.svg#icon-close" />
+    </svg></button><nav>
+   <a><picture>
+        <source srcset="./images/head/tablet/logo-menu-1x.png 1x, ./images/head/tablet/logo-menu-@2x.png 2x"
+            media="(min-width:768)" />
+        <source srcset="./images/head/mobile/logo-menu-1x.png.png 1x, ./images/head/mobile/logo-menu-@2x.png.png 2x" />
+        <img class="mobile-menu-logo" alt="Логотип компании">
+    </picture></a>
+    <ul class="mobile-menu-list list">
                 <li class="mobile-menu-item"><a href="" class="mobile-menu-link">About us</a></li>
                 <li class="mobile-menu-item"><a href="" class="mobile-menu-link">Program</a></li>
                 <li class="mobile-menu-item"><a href="" class="mobile-menu-link">Reviews</a></li>
                 <li class="mobile-menu-item"><a href="" class="mobile-menu-link">Contacts</a></li>
-            </ul></div></nav>
+            </ul></div>
+</nav>
 </header>
