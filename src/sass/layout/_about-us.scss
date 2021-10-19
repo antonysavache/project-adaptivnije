@@ -1,0 +1,79 @@
+.about-title {
+  margin-bottom: 10px;
+}
+
+.about-text {
+  font-size: 16px;
+  line-height: 1.25;
+  width: 95%;
+}
+
+.more-text {
+  display: none;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.about-text.show-more .more-text {
+  display: block;
+}
+
+.about-first-text {
+  margin-bottom: 30px;
+}
+
+.about-second-text {
+  margin-bottom: 30px;
+}
+
+.about-read-more-btn {
+  border: none;
+  font-family: 'Caveat Brush';
+  background-color: transparent;
+  font-size: 18px;
+  text-align: center;
+  color: #ab816c;
+}
+
+@media screen and (min-width: 768px) {
+  .about-section {
+    display: flex;
+  }
+
+  .about-text-section {
+    margin-left: 25px;
+  }
+}
+
+.about-picture {
+  flex-shrink: 0;
+}
+.about-title {
+  text-align: start;
+}
+
+@media screen and (min-width: 1200px) {
+  .more-text {
+    display: block;
+  }
+  .about-read-more-btn {
+    display: none;
+  }
+
+  .about-text {
+    font-size: 18px;
+    line-height: 1.22;
+  }
+
+  .about-text {
+    width: 55%;
+  }
+
+  .about-text-section {
+    margin-left: 76px;
+  }
+
+  .about-title {
+    margin-top: 48px;
+  }
+}
