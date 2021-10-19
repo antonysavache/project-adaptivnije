@@ -1,6 +1,5 @@
-.icons-social-links {
-    display: flex;
-    height: 15px;
+.footer {
+    height: 90px;
 }
 
 .footer-social-icons {
@@ -10,4 +9,40 @@
 
 .icons-contacts {
     display: flex;
+}
+
+.icons-social-links {
+    fill: var(--text-icons);
+}
+
+.footer-icons-contacts {
+    height: 13px;
+    width: 13px;
+}
+
+.footer-social-icons-li {
+    margin-right: 9px;
+    &:last-child {
+        margin-right: 0px;
+    }
+}
+
+.footer-addres {
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 34px;
+}
+
+.footer-addres-links {
+    color: var(--text-icons);
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.25;
+}
+
+.footer-pic-flour {
+    position: absolute;
+    bottom: 0;
+right: 0;
 }
