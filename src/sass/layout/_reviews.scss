@@ -1,0 +1,119 @@
+.review-section {
+  padding: 30px 15px;
+}
+
+.review-title {
+  margin-bottom: 29px;
+  line-height: 1.2;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 8px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 22px;
+    font-size: 36px;
+  }
+}
+
+.review-image {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 6px;
+  max-width: 110px;
+  border-radius: 50% 50%;
+}
+
+.review-point {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.review-point-item:not(:first-child) {
+  margin-left: 4px;
+}
+
+.review-svg {
+  fill: #ab816c;
+}
+
+.review-name {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+
+  color: var(--text-icons);
+}
+
+.review-text {
+  width: 100%;
+  margin-bottom: 30px;
+  font-size: 16px;
+  text-align: center;
+
+  color: var(--text-icons);
+}
+
+// Стили для слайдера
+.review-slider {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 626px;
+}
+
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+
+  & > li {
+    display: none;
+  }
+
+  & > li.slick-active {
+    display: contents;
+  }
+
+  &::before,
+  &::after {
+    content: '';
+    width: 35px;
+    height: 1px;
+    background-color: #ab816c;
+  }
+
+  &::before {
+    margin-right: 12px;
+  }
+
+  &::after {
+    margin-left: 12px;
+  }
+}
+
+.slick-active > button {
+  background-color: transparent;
+  border-color: transparent;
+  color: #ab816c;
+
+  &::after {
+    content: '/15';
+  }
+}
+
+.slick-current .review-text {
+  display: block;
+}
+
+.slick-current .review-image {
+  max-width: 186px;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 18px;
+  }
+}
+
+// Конец стилей для слайдера
