@@ -3,7 +3,7 @@
 }
 
 .review-title {
-  margin-bottom: 14px;
+  margin-bottom: 29px;
   line-height: 1.2;
 
   @media screen and (min-width: 768px) {
@@ -14,13 +14,6 @@
     margin-bottom: 22px;
     font-size: 36px;
   }
-}
-
-.review-list {
-  max-width: 626px;
-  margin-left: auto;
-  margin-right: auto;
-  outline: 1px solid red;
 }
 
 .review-image {
@@ -52,20 +45,23 @@
   text-align: center;
 
   color: var(--text-icons);
-  // line-height: 65px;
 }
 
 .review-text {
-  display: none;
+  width: 100%;
   margin-bottom: 30px;
   font-size: 16px;
   text-align: center;
 
   color: var(--text-icons);
-  // line-height: 20px;
 }
 
-// Стили для карусели
+// Стили для слайдера
+.review-slider {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 626px;
+}
 
 .slick-dots {
   display: flex;
@@ -114,6 +110,10 @@
 
 .slick-current .review-image {
   max-width: 186px;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 18px;
+  }
 }
 
-// Конец стилей для каруссели
+// Конец стилей для слайдера
