@@ -48,6 +48,9 @@
 .about-picture {
   flex-shrink: 0;
 }
+.about-title {
+  text-align: start;
+}
 
 @media screen and (min-width: 1200px) {
   .more-text {
@@ -71,6 +74,6 @@
   }
 
   .about-title {
-    text-align: start;
+    margin-top: 48px;
   }
 }
