@@ -1,6 +1,43 @@
 .footer {
   height: 90px;
   position: relative;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  @media screen and (min-width: 768px) and (max-width:1199px){
+    height: 108px;
+  }
+  @media screen and (min-width: 1200px){
+    height: 96px;
+  }
+}
+
+.icon-twitter {
+  width: 19px;
+  height: 15px;
+  @media screen and (min-width: 1200px){
+    width: 24px;
+    height: 19px;
+  }
+}
+
+.icon-instagram {
+  width: 15px;
+  height: 15px;
+  @media screen and (min-width: 1200px){
+    width: 19px;
+    height: 19px;
+  }
+}
+
+.icon-facebook {
+  width: 9px;
+  height: 15px;
+  @media screen and (min-width: 1200px){
+    width: 10px;
+    height: 19px;
+  }
 }
 
 .footer-social-icons {
@@ -31,7 +68,6 @@
 .footer-addres {
   display: flex;
   justify-content: space-between;
-  margin-top: 34px;
 }
 
 .footer-addres-links {
@@ -43,12 +79,28 @@
 
 .footer-pic-flour {
   position: absolute;
-  bottom: 0px;
-  right: 0px;
+  bottom: -35px;
+  right: -26px;
   z-index: -1;
+  @media screen and (min-width: 768px) and (max-width:1199px){
+    bottom: -38px;
+    right: -60px;
+  }
+  @media screen and (min-width: 1200px){
+    bottom: -134px;
+    right: -43px;
+  }
 }
 
 .footer-img-flour {
   width: 113px;
   height: 99px;
+  @media screen and (min-width: 768px) and (max-width:1199px){
+    width: 207px;
+    height: 182px;
+  }
+  @media screen and (min-width: 1200px){
+    width: 362px;
+    height: 318px;
+  }
 }
