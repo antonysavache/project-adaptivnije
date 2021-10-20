@@ -30,6 +30,7 @@
   color: var(--text-icons);
 }
 
+
 .registration-title {
     font-family: var(--main-font-family);
   position: relative;
@@ -49,18 +50,13 @@
   .reg-div {
     box-shadow: -4px -4px 4px rgba(171, 129, 108, 0.15), 4px 4px 4px rgba(171, 129, 108, 0.15);
 border-radius: 150px 150px 0 0;
+background-color: #FFFFF9;
 }
   
 }
 
 
-@media screen and (min-width: 768px) {
-    .registration-div {
-        box-shadow: -4px -4px 4px rgba(171, 129, 108, 0.15), 4px 4px 4px rgba(171, 129, 108, 0.15);
-        border-radius: 150px;
-  }
-    
-}
+
 
 .registration-title::before {
   display: block;
@@ -103,18 +99,22 @@ border-radius: 150px 150px 0 0;
   outline: none;
 }
 
-.registration-info-text:nth-child(1) {
+.registration-info-text:not(:last-child){
   margin-bottom: 25px;
+ 
 }
 
-.registration-info-text:nth-child(2) {
-  margin-bottom: 25px;
+.registration-info-text{
+  display: block;
 }
 
 
 
-.registration-button {
-  margin-top: 37px;
+
+
+.form-container {
+  text-align: center;
+  margin-bottom: 37px;
 }
 
 
@@ -154,4 +154,27 @@ color: #2E2520;
 
   .contact-text:nth-child(1) {
     margin-bottom: 25px;
+  } 
+  
+  @media screen and (min-width: 768px) {
+    .registration-div {
+        box-shadow: -4px -4px 4px rgba(171, 129, 108, 0.15), 4px 4px 4px rgba(171, 129, 108, 0.15);
+        border-radius: 150px;
+        display: flex;
+        padding: 53px 0;
+        background-color: #FFFFF9;
   }
+   
+  .registration-info {
+    flex-direction: row;
+  }
+
+  .registration-time {
+    margin-bottom: 34px;
+  }
+
+  .registration-time,
+  .registration-price {
+    text-align: right;
+  }
+}
