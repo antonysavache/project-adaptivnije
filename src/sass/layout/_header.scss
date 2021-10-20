@@ -1,12 +1,19 @@
-body {
-  margin: 0;
-}
 .link {
   color: var(--text-icons);
 
   &:hover,
   &:focus {
     color: var(--buttons-star-dec);
+  }
+}
+.header-container {
+  position: relative;
+  padding-top: 7px;
+  @media screen and(min-width:768px) {
+    padding-top: 27px;
+  }
+  @media screen and(min-width:1280px) {
+    padding-top: 31px;
   }
 }
 .header-nav {
@@ -60,8 +67,21 @@ body {
   &:focus {
     color: var(--buttons-star-dec);
   }
+  @media screen and(min-width:1280px) {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
 }
 
+// .header-logo-link {
+//   margin-top: 7px;
+//   @media screen and(min-width:768px) {
+//     margin-top: 27px;
+//   }
+//   // @media screen and(min-width:1280px) {
+//   //   margin-top: 31px;
+//   // }
+// }
 .header-logo {
   fill: currentColor;
   width: 96px;
@@ -99,6 +119,14 @@ body {
   height: 16px;
   background-color: transparent;
   border: 0;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  @media screen and(min-width:768px) {
+    top: 26px;
+    right: 0;
+  }
+
   @media screen and(min-width:1280px) {
     display: none;
   }
