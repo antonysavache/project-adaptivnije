@@ -7,4 +7,10 @@
   font-family: var(--second-font-family), cursive;
   border: none;
   padding: 12px 0px 12px 0px;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: #876655;
+  }
 }
