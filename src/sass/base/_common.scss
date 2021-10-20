@@ -4,6 +4,20 @@ img {
   height: auto;
 }
 
+.buttons {
+  @media screen and(max-width:1279px) {
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 145px;
+  }
+  @media screen and(min-width:1280px) {
+    font-size: 24px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+  }
+}
+
 h1,
 h2,
 h3,
