@@ -5,16 +5,15 @@
 .about-text {
   font-size: 16px;
   line-height: 1.25;
-  width: 95%;
 }
 
-.more-text {
+.more-text-about {
   display: none;
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
-.about-text.show-more .more-text {
+.about-text.show-more .more-text-about {
   display: block;
 }
 
@@ -47,13 +46,14 @@
 
 .about-picture {
   flex-shrink: 0;
+  margin-left: -46px;
 }
 .about-title {
   text-align: start;
 }
 
-@media screen and (min-width: 1200px) {
-  .more-text {
+@media screen and (min-width: 1280px) {
+  .more-text-about {
     display: block;
   }
   .about-read-more-btn {
@@ -66,14 +66,22 @@
   }
 
   .about-text {
-    width: 55%;
+    width: 70%;
   }
 
   .about-text-section {
     margin-left: 76px;
+    padding-bottom: 50px;
   }
 
   .about-title {
     margin-top: 48px;
+  }
+  .about-section {
+    max-width: 1138px;
+  }
+
+  .about-picture {
+    margin-left: 0px;
   }
 }
