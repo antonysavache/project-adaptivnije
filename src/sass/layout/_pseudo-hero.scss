@@ -4,7 +4,7 @@
   align-items: center;
   margin-right: auto;
 
-  @media screen and(min-width:1280px) {
+  @media screen and(min-width:768px) {
     align-items: flex-start;
   }
 }
@@ -20,62 +20,118 @@
     line-height: 1.26;
     width: 224px;
     margin-top: 33px;
-    margin-bottom: 3px;
+    margin-bottom: 8px;
   }
   @media screen and(min-width:768px) {
     font-size: 30px;
     line-height: 1.26;
     width: 224px;
     margin-top: 10px;
-    margin-bottom: 3px;
+    margin-bottom: 8px;
   }
   @media screen and(min-width:1280px) {
     font-size: 64px;
     line-height: 1.02;
     width: 490px;
     margin-top: 57px;
-    margin-bottom: 15px;
+    margin-bottom: 16px;
   }
 }
 
 .head-sub {
-  @media screen and(max-width:767px) {
-  }
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25px;
+  color: var(--text-icons);
+  margin-bottom: 37px;
+
   @media screen and(min-width:768px) {
+    margin-bottom: 26px;
   }
   @media screen and(min-width:1280px) {
+    margin-bottom: 30px;
+    line-height: 1.21;
+    font-size: 24px;
   }
 }
 
-.reg-btn {
-  @media screen and(max-width:767px) {
-  }
-  @media screen and(min-width:768px) {
-  }
-  @media screen and(min-width:1280px) {
-  }
-}
 .soc-link-list {
+  display: flex;
   @media screen and(max-width:767px) {
+    margin-top: 45px;
   }
   @media screen and(min-width:768px) {
+    margin-top: 31px;
   }
   @media screen and(min-width:1280px) {
+    margin-top: 65px;
   }
 }
-.soc-item {
-  @media screen and(max-width:767px) {
-  }
-  @media screen and(min-width:768px) {
+// .soc-item {
+//   @media screen and(max-width:767px) {
+//   }
+//   @media screen and(min-width:768px) {
+//   }
+//   @media screen and(min-width:1280px) {
+//   }
+// }
+.soc-item:not(:last-child) {
+  @media screen and(max-width:1279px) {
+    margin-right: 9.5px;
   }
   @media screen and(min-width:1280px) {
+    margin-right: 12px;
   }
 }
 .soc-link {
+  color: var(--text-icons);
+  &:hover,
+  &:hover {
+    color: var(--buttons-star-dec);
+  }
   @media screen and(max-width:767px) {
   }
   @media screen and(min-width:768px) {
   }
   @media screen and(min-width:1280px) {
+  }
+  &:hover .soc-icon,
+  &:hover .soc-icon {
+    fill: currentColor;
+  }
+}
+.soc-icon {
+  fill: var(--text-icons);
+}
+
+@media screen and(max-width:1279px) {
+  .twitter {
+    width: 19px;
+    height: 15px;
+  }
+  .instagram {
+    width: 15px;
+    height: 15px;
+  }
+  .facebook {
+    width: 8px;
+    height: 15px;
+  }
+}
+
+@media screen and(min-width:1280px) {
+  .twitter {
+    width: 24px;
+    height: 19px;
+  }
+  .instagram {
+    width: 19px;
+    height: 19px;
+  }
+  .facebook {
+    width: 11px;
+    height: 19px;
   }
 }

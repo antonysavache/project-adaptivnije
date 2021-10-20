@@ -1,10 +1,8 @@
 <header class="header-section">
     <div class="header-container container">
-    <div class="header-flex"><nav class="header-nav"><a href="" class="header-logo-link"><picture class="header-picture">
-        <source srcset="./images/head/desktop/logo1x.png 1x, ./images/head/desktop/logo@2x.png 2x" media="(min-width:1200)"/>
-        <source srcset="./images/head/tablet/logo-main-1x.png 1x, ./images/head/tablet/logo-main-@2x.png 2x" media="(min-width:768)"/>
-        <source srcset="./images/head/mobile/logo1x.png 1x, ./images/head/mobile/logo@2x.png 2x"/>
-        <img class="header-logo" alt="Логотип компании"></picture></a>
+    <div class="header-flex"><nav class="header-nav"><a class="link header-logo-link" href=""><svg class="header-logo">
+        <use href="./images/sprite.svg#icon-logo"/>
+    </svg></a>
     <ul class="header-nav-list list">
         <li class="nav-item"><a href="" class="link nav-link">About us</a></li>
         <li class="nav-item"><a href="" class="link nav-link">Program</a></li>
@@ -20,12 +18,9 @@
     <svg class="menu-icon-btn">
         <use href="./images/sprite.svg#icon-close" />
     </svg></button><nav>
-   <a href=""><picture class="header-picture mob-menu-logo">
-        <source srcset="./images/head/tablet/logo-menu-1x.png 1x, ./images/head/tablet/logo-menu-@2x.png 2x"
-            media="(min-width:768)" />
-        <source srcset="./images/head/mobile/logo-menu-1x.png.png 1x, ./images/head/mobile/logo-menu-@2x.png.png 2x" />
-        <img class="mobile-menu-logo" alt="Логотип компании">
-    </picture></a>
+   <a class="mob-menu-logo-link link" href=""><svg class="mob-menu-logo">
+    <use href="./images/sprite.svg#icon-logo" />
+</svg></a>
     <ul class="mobile-menu-list list">
                 <li class="mobile-menu-item"><a href="" class="mobile-menu-link link">About us</a></li>
                 <li class="mobile-menu-item"><a href="" class="mobile-menu-link link">Program</a></li>
@@ -38,17 +33,17 @@
 <ul class="soc-link-list list">
     <li class="soc-item">
         <a href="" class="soc-link">
-            <svg class="soc-icon" height="19" width="24"><use href="./images/sprite.svg#twitter"/></svg>
+            <svg class="soc-icon twitter"><use href="./images/sprite.svg#twitter"/></svg>
         </a>
     </li>
     <li class="soc-item">
         <a href="" class="soc-link">
-            <svg class="soc-icon" height="19" width="19"><use href="./images/sprite.svg#instagramm"/></svg>
+            <svg class="soc-icon instagram"><use href="./images/sprite.svg#instagramm"/></svg>
         </a>
     </li>
     <li class="soc-item">
         <a href="" class="soc-link">
-            <svg class="soc-icon" height="19" width="11"><use href="./images/sprite.svg#facebook"/></svg>
+            <svg class="soc-icon facebook"><use href="./images/sprite.svg#facebook"/></svg>
         </a>
     </li>
 </ul></div></div>
