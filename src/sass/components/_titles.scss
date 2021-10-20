@@ -3,4 +3,7 @@
   text-align: center;
   color: #2e2520;
   font-family: var(--second-font-family), sans-serif ;
+  @media screen and(min-width:1280px){
+    font-size: 36px;
+  }
 }
