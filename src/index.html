@@ -5,15 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Заголовок страницы</title>
     <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css"
+    integrity="sha512-Y0MM+V6ymRKN2zStTqzQ227DWhhp4Mzdo6gnlRnuaNCbc+YN/ZH0sBCLTM4M0oSy9c9VKiCvd4Jk44aCLrNS5Q=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+    <link
       href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Montserrat:wght@400;500&display=swap"
       rel="stylesheet"
     />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Montserrat:ital,wght@0,400;0,500;1,500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Montserrat:ital,wght@0,400;0,500;1,500&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body>
+  <body class="body-pics">
     <include src="./partials/header.html"></include>
     <main>
       <include src="./partials/hero.html"></include>
@@ -26,6 +41,16 @@
     </main>
     <include src="./partials/footer.html"></include>
     <script src="./js/mobile-menu.js">
-    </script><script src="./index.js"></script>
+    </script>
+    <script src="./index.js"></script>
+    <script src="./js/about.js"></script>
+
+    <!-- Джава скрипт для слайдера -->
+    <script src="https://cdn.jsdelivr.net/combine/npm/jquery@3.6.0,npm/jquery-migrate@3.3.2"></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="./js/reviews.js"></script>
   </body>
 </html>
