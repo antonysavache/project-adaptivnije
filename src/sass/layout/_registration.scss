@@ -2,7 +2,15 @@
   padding-top: 15px;
   margin-bottom: 11px;
   padding-bottom: 15px;
+  
 }
+
+@media screen and (max-width: 767px) {
+  .registration {
+    padding-top: 38px;
+  }
+}
+
 
 .registration-time {
   font-family: var(--main-font-family);
@@ -148,24 +156,49 @@
   }
 }
 
+
+@media screen and (min-width: 1280px) {
+  .form-container {
+    margin-bottom: 0;
+    width: 232px;
+    margin-right:38px;
+  }
+}
 // ========== CONTACT ============= //
 
 .contact {
   margin-top: 74px;
 }
 
+@media screen and (min-width: 768px) {
+  .contact-input {
+   width: 410px
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .contact-input {
+   width: 430px
+  }
+}
+
+
 .contact-title {
   font-family: var(--main-font-family);
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 65px;
+  margin-top: 20px;
+  margin-bottom: 22px;
 
   text-align: center;
 
   color: #2e2520;
-}
 
+  @media screen and (min-width: 1280px) {
+    font-size: 18px;
+  }
+}
 .contact-button {
   margin-top: 37px;
 }
@@ -190,14 +223,6 @@
     background-color: #fffff9;
   }
 
-  @media screen and (min-width: 1200px) {
-    .registration-div {
-      max-width: 822px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-  }
-
   @media screen and (min-width: 768px) {
     .registration-info {
       flex-direction: row;
@@ -218,8 +243,23 @@
 @media screen and (min-width: 768px) {
   .time-price-div {
     margin-top: 12px;
-    width: 188px;
+    width: 155px;
     flex-shrink: 0;
     margin-right: 30px;
+  }
+}
+
+
+@media screen and (min-width: 1280px) {
+  .time-price-div {
+    width: 188px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .registration-div {
+    max-width: 822px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
