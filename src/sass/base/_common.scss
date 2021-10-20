@@ -70,8 +70,9 @@ body {
 .body-pics {
   background-image: url('../images/body/mobile/bg-head-1x.png'),
     url('../images/body/mobile/bg-bottom-1x.png');
+    background-repeat: no-repeat;
   background-position: top, bottom;
-  background-size: cover;
+
   justify-content: center;
 
   @media (min-device-pixel-ratio: 2) and (max-width: 767px),
