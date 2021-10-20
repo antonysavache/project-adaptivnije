@@ -1,0 +1,265 @@
+.registration {
+  padding-top: 15px;
+  margin-bottom: 11px;
+  padding-bottom: 15px;
+  
+}
+
+@media screen and (max-width: 767px) {
+  .registration {
+    padding-top: 38px;
+  }
+}
+
+
+.registration-time {
+  font-family: var(--main-font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.22;
+  text-align: center;
+  margin-bottom: 25px;
+  width: 120px;
+  margin-left: auto;
+  margin-right: auto;
+
+  color: var(--text-icons);
+}
+
+@media screen and (min-width: 768px) {
+  .registration-time {
+    margin-right: 0;
+  }
+}
+
+.registration-price {
+  font-family: var(--main-font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.22;
+  margin-bottom: 11px;
+
+  text-align: center;
+
+  color: var(--text-icons);
+}
+
+.registration-title {
+  font-family: var(--main-font-family);
+  position: relative;
+  padding-top: 10px;
+  padding-right: 40px;
+  padding-left: 40px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+  margin-bottom: 17px;
+
+  color: var(--text-icons);
+}
+
+@media screen and (min-width: 768px) {
+  .registration-title {
+    padding-right: 0;
+    padding-left: 0;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .reg-div {
+    box-shadow: -4px -4px 4px rgba(171, 129, 108, 0.15), 4px 4px 4px rgba(171, 129, 108, 0.15);
+    border-radius: 150px 150px 0 0;
+    background-color: #fffff9;
+  }
+}
+
+.registration-title::before {
+  display: block;
+  position: absolute;
+  content: '';
+  left: 4%;
+  top: 0;
+  width: 92%;
+  height: 1px;
+  background-color: rgba(171, 129, 108, 0.5);
+}
+
+@media screen and (min-width: 768px) {
+  .registration-title::before {
+    display: none;
+  }
+}
+
+.registration-input::placeholder {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.25;
+  color: rgba(171, 129, 108, 0.5);
+}
+
+.registration-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 47px;
+}
+
+
+
+@media screen and (min-width: 768px) {
+  .registration-info {
+    border-left: solid 1px rgba(171, 129, 108, 0.5);;
+    padding-left: 30px;
+  }
+}
+
+.registration-input {
+  border: none;
+  width: 265px;
+  border-bottom: 1px solid #ab816c;
+  background-color: rgba(255, 255, 249, 1);
+}
+
+@media screen and (min-width: 768px) {
+  .registration-input {
+    width: 100%;
+  }
+}
+
+.registration-input:focus {
+  outline: none;
+}
+
+.registration-info-text:not(:last-child) {
+  margin-bottom: 25px;
+}
+
+.registration-info-text {
+  display: block;
+}
+
+.form-container {
+  text-align: center;
+  margin-bottom: 37px;
+}
+
+@media screen and (min-width: 768px) {
+  .form-container {
+    margin-bottom: 0;
+    width: 232px;
+    margin-right: 24px;
+  }
+}
+
+
+@media screen and (min-width: 1280px) {
+  .form-container {
+    margin-bottom: 0;
+    width: 232px;
+    margin-right:38px;
+  }
+}
+// ========== CONTACT ============= //
+
+.contact {
+  margin-top: 74px;
+}
+
+@media screen and (min-width: 768px) {
+  .contact-input {
+   width: 410px
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .contact-input {
+   width: 430px
+  }
+}
+
+
+.contact-title {
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 22px;
+
+  text-align: center;
+
+  color: #2e2520;
+
+  @media screen and (min-width: 1280px) {
+    font-size: 18px;
+  }
+}
+.contact-button {
+  margin-top: 37px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 47px;
+}
+
+.contact-text:nth-child(1) {
+  margin-bottom: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .registration-div {
+    box-shadow: -4px -4px 4px rgba(171, 129, 108, 0.15), 4px 4px 4px rgba(171, 129, 108, 0.15);
+    border-radius: 150px;
+    display: flex;
+    padding: 53px 0;
+    background-color: #fffff9;
+  }
+
+  @media screen and (min-width: 768px) {
+    .registration-info {
+      flex-direction: row;
+      padding-bottom: 0;
+    }
+  }
+
+  .registration-time {
+    margin-bottom: 34px;
+  }
+
+  .registration-time,
+  .registration-price {
+    text-align: right;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .time-price-div {
+    margin-top: 12px;
+    width: 155px;
+    flex-shrink: 0;
+    margin-right: 30px;
+  }
+}
+
+
+@media screen and (min-width: 1280px) {
+  .time-price-div {
+    width: 188px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .registration-div {
+    max-width: 822px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
