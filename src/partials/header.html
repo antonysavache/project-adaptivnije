@@ -1,36 +1,55 @@
 <header class="header-section">
     <div class="header-container container">
-    <div class="header-flex"><nav class="header-nav"><a href="" class="header-logo-link"><picture>
+    <div class="header-flex"><nav class="header-nav"><a href="" class="header-logo-link"><picture class="header-picture">
         <source srcset="./images/head/desktop/logo1x.png 1x, ./images/head/desktop/logo@2x.png 2x" media="(min-width:1200)"/>
         <source srcset="./images/head/tablet/logo-main-1x.png 1x, ./images/head/tablet/logo-main-@2x.png 2x" media="(min-width:768)"/>
         <source srcset="./images/head/mobile/logo1x.png 1x, ./images/head/mobile/logo@2x.png 2x"/>
         <img class="header-logo" alt="Логотип компании"></picture></a>
     <ul class="header-nav-list list">
-        <li class="nav-item"><a href="" class="nav-link">About us</a></li>
-        <li class="nav-item"><a href="" class="nav-link">Program</a></li>
-        <li class="nav-item"><a href="" class="nav-link">Reviews</a></li>
-        <li class="nav-item"><a href="" class="nav-link">Contacts</a></li>
+        <li class="nav-item"><a href="" class="link nav-link">About us</a></li>
+        <li class="nav-item"><a href="" class="link nav-link">Program</a></li>
+        <li class="nav-item"><a href="" class="link nav-link">Reviews</a></li>
+        <li class="nav-item"><a href="" class="link nav-link">Contacts</a></li>
      </ul></nav>
-    <button class="menu-btn">
+    <button class="menu-btn" type="button" data-menu-open>
         <svg class="menu-icon-btn">
             <use href="./images/sprite.svg#menu"/>
-        </svg></button></div></div>
-    <div class="mobile-menu">
-        <button class="menu-btn">
-    <svg>
+        </svg></button></div>
+    <div class="mobile-menu" data-menu>
+        <button class="menu-btn close-btn" type="button" data-menu-close>
+    <svg class="menu-icon-btn">
         <use href="./images/sprite.svg#icon-close" />
     </svg></button><nav>
-   <a><picture>
+   <a href=""><picture class="header-picture mob-menu-logo">
         <source srcset="./images/head/tablet/logo-menu-1x.png 1x, ./images/head/tablet/logo-menu-@2x.png 2x"
             media="(min-width:768)" />
         <source srcset="./images/head/mobile/logo-menu-1x.png.png 1x, ./images/head/mobile/logo-menu-@2x.png.png 2x" />
         <img class="mobile-menu-logo" alt="Логотип компании">
     </picture></a>
     <ul class="mobile-menu-list list">
-                <li class="mobile-menu-item"><a href="" class="mobile-menu-link">About us</a></li>
-                <li class="mobile-menu-item"><a href="" class="mobile-menu-link">Program</a></li>
-                <li class="mobile-menu-item"><a href="" class="mobile-menu-link">Reviews</a></li>
-                <li class="mobile-menu-item"><a href="" class="mobile-menu-link">Contacts</a></li>
-            </ul></div>
-</nav>
+                <li class="mobile-menu-item"><a href="" class="mobile-menu-link link">About us</a></li>
+                <li class="mobile-menu-item"><a href="" class="mobile-menu-link link">Program</a></li>
+                <li class="mobile-menu-item"><a href="" class="mobile-menu-link link">Reviews</a></li>
+                <li class="mobile-menu-item"><a href="" class="mobile-menu-link link">Contacts</a></li>
+            </ul></nav></div>
+<div class="headline-items"><h1 class="headline">Donut Masterclass with the Donut King</h1>
+<p class="head-sub">Hosted by Eva Green</p>
+<button class="buttons reg-btn" type="button">Register</button>
+<ul class="soc-link-list list">
+    <li class="soc-item">
+        <a href="" class="soc-link">
+            <svg class="soc-icon" height="19" width="24"><use href="./images/sprite.svg#twitter"/></svg>
+        </a>
+    </li>
+    <li class="soc-item">
+        <a href="" class="soc-link">
+            <svg class="soc-icon" height="19" width="19"><use href="./images/sprite.svg#instagramm"/></svg>
+        </a>
+    </li>
+    <li class="soc-item">
+        <a href="" class="soc-link">
+            <svg class="soc-icon" height="19" width="11"><use href="./images/sprite.svg#facebook"/></svg>
+        </a>
+    </li>
+</ul></div></div>
 </header>
