@@ -109,22 +109,25 @@
   .program-section {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
   }
   .program-text-section,
   .program-donuts-list {
     width: calc((100% - 38px) / 2);
   }
 
+  .program-donuts-list {
+    margin-top: 53px;
+  }
+
   .program-donuts-item {
     flex-basis: calc((100% - 15px * var(--grid-item)) / var(--grid-item));
     --grid-item: 2;
+    background-color: #fef3e4;
   }
 
   .program-title {
     text-align: start;
-  }
-  .program-section {
-    align-items: center;
   }
 }
 
@@ -163,7 +166,7 @@
   }
 
   .program-text {
-    width: 70%;
+    width: 85%;
   }
 
   .donut-icon {
