@@ -85,6 +85,12 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
+  &:hover .footer-icons-contacts,
+  &:focus .footer-icons-contacts,
+  &:active .footer-icons-contacts {
+    color: var(--hover);
+    fill: var(--hover);
+  }
 }
 
 .footer-pic-flour {
@@ -94,3 +100,10 @@ z-index: -1;
   bottom: 0;
 }
 
+.footer-icons-forhover {
+  &:hover .icons-social-links,
+  &:active .icons-social-links,
+  &:focus .icons-social-links {
+    fill: var(--hover);
+  }
+}
