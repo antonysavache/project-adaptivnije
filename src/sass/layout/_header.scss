@@ -23,6 +23,45 @@
 }
 .header-container {
   position: relative;
+  &::before {
+    @media screen and (min-width:1280px) {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    left: -350px;
+    top: 170px;
+    width: 210px;
+    height: 420px;
+    background-size: 210px 420px;
+    overflow: hidden;
+    repeat: no-repeat;
+    background-image: url('../images/body/desktop/spoon-1x.png');
+    }
+    @media screen and (min-width:1280px),(min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx)  {
+      background-image: url('../images/body/desktop/spoon-@2x.png');
+    }
+
+  }
+
+  &::after {
+    @media screen and (min-width:1280px) {
+      position: absolute;
+      z-index: -1;
+      content: '';
+      top: -200px;
+      right: -340px;
+      width: 793px;
+      height: 831px;
+      background-size: 793px 831px;
+      overflow: hidden;
+      background-image: url('../images/body/desktop/pic-donuts-1x.png');
+      }
+      @media screen and (min-width:1280px),(min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx)  {
+        background-image: url('../images/body/desktop/pic-donuts-@2x.png');
+        overflow: hidden;
+      }
+  
+  }
 
   @media screen and(min-width:1280px) {
     padding-top: 31px;
