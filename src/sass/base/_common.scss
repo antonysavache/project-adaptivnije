@@ -72,8 +72,7 @@ body {
     url('../images/body/mobile/bg-bottom-1x.png');
     background-repeat: no-repeat;
   background-position: top, bottom;
-
-  justify-content: center;
+  background-size: 100% 460px, 100% 1214px;
 
   @media (min-device-pixel-ratio: 2) and (max-width: 767px),
     (min-resolution: 192dpi) and (max-width: 767px),
@@ -81,12 +80,14 @@ body {
     background-image: url('../images/body/mobile/bg-head-@2x.png'),
       url('../images/body/mobile/bg-bottom-@2x.png');
     background-position: top, bottom;
+    background-size: 100% 460px, 100% 1214px;
   }
 
   @media screen and (min-width: 768px) and (max-width: 1279px) {
     background-image: url('../images/body/tablet/bg-head-1x.png'),
       url('../images/body/tablet/bg-bottom-1x.png');
     background-position: top, bottom;
+    background-size: 100% 622px, 100% 1260px;
   }
 
   @media (min-device-pixel-ratio: 2) and (min-width: 768px) and (max-width: 1279px),
@@ -95,12 +96,14 @@ body {
     background-image: url('../images/body/tablet/bg-head-@2x.png'),
       url('../images/body/tablet/bg-bottom-@2x.png');
     background-position: top, bottom;
+    background-size: 100% 622px, 100% 1260px;
   }
 
   @media screen and (min-width: 1280px) {
     background-image: url('../images/body/desktop/bg-head-1x.png'),
       url('../images/body/desktop/bg-bottom-1x.png');
     background-position: top, bottom;
+    background-size: 100% 1036px, 100% 1600px;
   }
 
   @media (min-device-pixel-ratio: 2) and (min-width: 1280px),
@@ -109,5 +112,6 @@ body {
     background-image: url('../images/body/desktop/bg-head-@2x.png'),
       url('../images/body/desktop/bg-bottom-@2x.png');
     background-position: top, bottom;
+    background-size: 100% 1036px, 100% 1600px;
   }
 }

@@ -1,5 +1,16 @@
 .review-section {
-  padding: 30px 15px;
+  padding-top: 21px;
+  padding-bottom: 13px;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 18px;
+    padding-bottom: 32px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    padding-top: 41px;
+    padding-bottom: 45px;
+  }
 }
 
 .review-title {
