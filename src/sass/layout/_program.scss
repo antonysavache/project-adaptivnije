@@ -1,3 +1,8 @@
+.program {
+  padding-top: 24px;
+  padding-bottom: 21px;
+}
+
 .program-text {
   font-size: 16px;
   line-height: 1.25;
@@ -48,10 +53,6 @@
 }
 
 .program-donuts-item {
-  // width: calc((100% - 6px * var(--grid-item)) / var(--grid-item));
-  // --grid-item: 2;
-
-  // height: 142px;
   width: 142px;
   min-height: 142px;
 
@@ -106,6 +107,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .program {
+    padding-bottom: 18px;
+  }
+
   .program-section {
     display: flex;
     justify-content: space-between;
@@ -132,6 +137,11 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .program {
+    padding-top: 27px;
+    padding-bottom: 41px;
+  }
+
   .program-donuts-item {
     width: 180px;
     min-height: 180px;
