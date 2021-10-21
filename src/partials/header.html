@@ -7,10 +7,10 @@
             <use href="./images/sprite.svg#icon-logo" /></svg>
         </a>
         <ul class="header-nav-list list">
-          <li class="nav-item"><a href="#about-section" class="link nav-link">About us</a></li>
-          <li class="nav-item"><a href="#program-section" class="link nav-link">Program</a></li>
-          <li class="nav-item"><a href="#review-section" class="link nav-link">Reviews</a></li>
-          <li class="nav-item"><a href="#contact-section" class="link nav-link">Contacts</a></li>
+          <li class="nav-item close"><a href="#about-section" class="link nav-link">About us</a></li>
+          <li class="nav-item close"><a href="#program-section" class="link nav-link">Program</a></li>
+          <li class="nav-item close"><a href="#review-section" class="link nav-link">Reviews</a></li>
+          <li class="nav-item close"><a href="#contact-section" class="link nav-link">Contacts</a></li>
         </ul>
       </nav>
       <button class="menu-btn" type="button" data-menu-open>
@@ -21,7 +21,7 @@
     </div>
 
 
-    
+
     <div class="mobile-menu" data-menu>
       <button class="menu-btn close-btn" type="button" data-menu-close>
         <svg class="menu-icon-btn">
@@ -35,16 +35,16 @@
         </a>
         <ul class="mobile-menu-list list">
           <li class="mobile-menu-item">
-            <a href="#about-section" class="mobile-menu-link link">About us</a>
+            <a href="#about-section" class="mobile-menu-link link" data-item>About us</a>
           </li>
           <li class="mobile-menu-item">
-            <a href="#program-section" class="mobile-menu-link link">Program</a>
+            <a href="#program-section" class="mobile-menu-link link" data-item>Program</a>
           </li>
           <li class="mobile-menu-item">
-            <a href="#review-section" class="mobile-menu-link link">Reviews</a>
+            <a href="#review-section" class="mobile-menu-link link" data-item>Reviews</a>
           </li>
           <li class="mobile-menu-item">
-            <a href="#contact-section" class="mobile-menu-link link">Contacts</a>
+            <a href="#contact-section" class="mobile-menu-link link" data-item>Contacts</a>
           </li>
         </ul>
       </nav>
@@ -52,7 +52,7 @@
     <div class="headline-items">
       <h1 class="headline">Donut Masterclass with the Donut King</h1>
       <p class="head-sub">Hosted by Eva Green</p>
-      <button class="buttons reg-btn" type="button">Register</button>
+      <a class="buttons reg-btn" href="#registration-section" type="button">Register</a>
       <ul class="soc-link-list list">
         <li class="soc-item">
           <a href="" class="soc-link">
@@ -73,3 +73,8 @@
     </div>
   </div>
 </header>
+<!-- <script>
+    jQuery('.mobile-menu-item a').on('click', function () {
+            jQuery('.close-btn').click()
+        });
+</script> -->
