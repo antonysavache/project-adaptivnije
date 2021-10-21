@@ -14,15 +14,7 @@
 }
 
 .registration {
-  padding-top: 15px;
-  margin-bottom: 11px;
-  padding-bottom: 15px;
-}
-
-@media screen and (max-width: 767px) {
-  .registration {
-    padding-top: 38px;
-  }
+  margin-bottom: 26px;
 }
 
 .registration-time {
@@ -83,9 +75,10 @@
 
 @media screen and (max-width: 767px) {
   .reg-div {
+    padding-top: 40px;
     box-shadow: -4px -4px 4px rgba(171, 129, 108, 0.15), 4px 4px 4px rgba(171, 129, 108, 0.15);
     border-radius: 150px 150px 0 0;
-    background-color: #fffff9;
+    background-color: var(--body-bg);
   }
 }
 
@@ -133,7 +126,7 @@
   border: none;
   width: 265px;
   border-bottom: 1px solid #ab816c;
-  background-color: rgba(255, 255, 249, 1);
+  background-color: var(--body-bg);
 }
 
 @media screen and (min-width: 768px) {
@@ -174,7 +167,7 @@
     margin-right: 38px;
   }
 }
-// ========== CONTACT ============= //
+
 .contact-section {
   padding-top: 25px;
   padding-bottom: 23px;
@@ -234,11 +227,12 @@
 
 @media screen and (min-width: 768px) {
   .registration-div {
+    position: relative;
     box-shadow: -4px -4px 4px rgba(171, 129, 108, 0.15), 4px 4px 4px rgba(171, 129, 108, 0.15);
     border-radius: 150px;
     display: flex;
     padding: 53px 0;
-    background-color: #fffff9;
+    background-color: var(--body-bg);
   }
 
   @media screen and (min-width: 768px) {
@@ -280,3 +274,70 @@
     margin-right: auto;
   }
 }
+
+.registration-div::before {
+  position: absolute;
+  z-index: -1;
+  content: '';
+  left: -69px;
+  top: -39px;
+  width: 206px;
+  height: 232px;
+  background-image: url('../images/register/tablet/donut-registration-1x.png');
+  background-size: 235px 255px;
+
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+
+  @media screen and (min-width: 1280px) {
+      position: absolute;
+      z-index: -1;
+      content: '';
+      left: -170px;
+      top: -39px;
+      width: 235px;
+      height: 265px;
+      background-image: url('../images/register/desctop/donut-registration-1x.png');
+      background-size: 300px 280px;
+
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+        background-image: url('../images/register/desctop/donut-registration-@2x.png');
+    }
+  }
+}
+
+
+.registration-div::after {
+  position: absolute;
+  z-index: -1;
+  content: '';
+  right: -75px;
+  top: 100px;
+  width: 322px;
+  height: 320px;
+  background-image: url('../images/register/tablet/confetti-1x.png');
+  background-size: 322px 320px;
+  overflow: hidden;
+  @media screen and (max-width: 767px) {
+    display: none;
+}
+
+  @media screen and (min-width: 1280px) {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    right: -97px;
+    top: 53px;
+    width: 389px;
+    height: 408px;
+    background-image: url('../images/register/desctop/confetti-1x.png');
+    background-size: 500px 490px;
+
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      background-image: url('../images/register/tablet/confetti-@2x.png');
+  }
+}
+}
+
+
