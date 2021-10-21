@@ -340,4 +340,10 @@
 }
 }
 
+.registration-input:not(:placeholder-shown):required:valid {
+  border-color:rgba(171, 129, 108, 0.5); 
+}
+.registration-input:not(:placeholder-shown):required:invalid {
+  border-color: red;
+}
 
