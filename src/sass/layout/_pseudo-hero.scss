@@ -69,14 +69,7 @@
     margin-top: 65px;
   }
 }
-// .soc-item {
-//   @media screen and(max-width:767px) {
-//   }
-//   @media screen and(min-width:768px) {
-//   }
-//   @media screen and(min-width:1280px) {
-//   }
-// }
+
 .soc-item:not(:last-child) {
   @media screen and(max-width:1279px) {
     margin-right: 9.5px;

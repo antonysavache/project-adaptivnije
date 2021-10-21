@@ -1,10 +1,15 @@
 .footer {
   position: relative;
-  @media screen and (min-width: 768px) and (max-width:1279px){
+  padding-top: 23px;
+  padding-bottom: 19px;
+  @media screen and (min-width: 768px) and (max-width: 1279px) {
     height: 108px;
+    padding-top: 25px;
+    padding-bottom: 21px;
   }
-  @media screen and (min-width: 1280px){
+  @media screen and (min-width: 1280px) {
     height: 96px;
+    padding-top: 41px;
   }
 }
 
@@ -14,10 +19,10 @@
   height: 108px;
   justify-content: space-between;
   padding-bottom: 40px;
-  @media screen and (min-width: 768px) and (max-width:1279px){
+  @media screen and (min-width: 768px) and (max-width: 1279px) {
     padding-bottom: 24px;
   }
-  @media screen and (min-width: 1280px){
+  @media screen and (min-width: 1280px) {
     padding-bottom: 20px;
     height: 96px;
   }
@@ -26,7 +31,7 @@
 .icon-twitter {
   width: 19px;
   height: 15px;
-  @media screen and (min-width: 1280px){
+  @media screen and (min-width: 1280px) {
     width: 24px;
     height: 19px;
   }
@@ -35,7 +40,7 @@
 .icon-instagram {
   width: 15px;
   height: 15px;
-  @media screen and (min-width: 1280px){
+  @media screen and (min-width: 1280px) {
     width: 19px;
     height: 19px;
   }
@@ -44,7 +49,7 @@
 .icon-facebook {
   width: 9px;
   height: 15px;
-  @media screen and (min-width: 1280px){
+  @media screen and (min-width: 1280px) {
     width: 10px;
     height: 19px;
   }
@@ -95,7 +100,7 @@
 
 .footer-pic-flour {
   position: absolute;
-z-index: -1;
+  z-index: -1;
   right: 0;
   bottom: 0;
 }

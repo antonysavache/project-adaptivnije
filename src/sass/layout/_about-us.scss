@@ -1,3 +1,8 @@
+.about {
+  padding-top: 4px;
+  padding-bottom: 24px;
+}
+
 .about-title {
   margin-bottom: 10px;
 }
@@ -35,6 +40,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .about {
+    padding-top: 51px;
+  }
+
   .about-section {
     display: flex;
   }
@@ -53,6 +62,11 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .about {
+    padding-top: 47px;
+    padding-bottom: 27px;
+  }
+
   .more-text-about {
     display: block;
   }
