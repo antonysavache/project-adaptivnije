@@ -325,7 +325,7 @@
   height: 320px;
   background-image: url('../images/register/tablet/confetti-1x.png');
   background-size: 322px 320px;
-
+  overflow: hidden;
   @media screen and (max-width: 767px) {
     display: none;
 }
