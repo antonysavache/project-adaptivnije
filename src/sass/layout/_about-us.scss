@@ -51,12 +51,14 @@
   .about-text-section {
     margin-left: 25px;
   }
+  
+  .about-picture {
+    flex-shrink: 0;
+    margin-left: -46px;
+  }
 }
 
-.about-picture {
-  flex-shrink: 0;
-  margin-left: -46px;
-}
+
 .about-title {
   text-align: start;
 }
@@ -95,7 +97,4 @@
     max-width: 1138px;
   }
 
-  .about-picture {
-    margin-left: 0px;
-  }
 }
