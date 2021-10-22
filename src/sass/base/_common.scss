@@ -5,6 +5,7 @@ img {
 }
 
 .buttons {
+  cursor: pointer;
   @media screen and(max-width:1279px) {
     font-size: 18px;
     padding-top: 10px;
@@ -109,7 +110,7 @@ body {
   @media (min-device-pixel-ratio: 2) and (min-width: 1280px),
     (min-resolution: 192dpi) and (min-width: 1280px),
     (min-resolution: 2dppx) and (min-width: 1280px) {
-    background-image: url('../images/body/desktop/bg-head-@2x.png'),url('../images/FLOUR/DESCTOP/footer-flour1x.png'),
+    background-image: url('../images/body/desktop/bg-head-@2x.png'),url('../images/FLOUR/DESCTOP/footer-flour@2x.png'),
       url('../images/body/desktop/bg-bottom-@2x.png');
     background-position: top,115% 101%, bottom;
     background-size: 100% 1036px,362px 318px, 100% 1600px;
