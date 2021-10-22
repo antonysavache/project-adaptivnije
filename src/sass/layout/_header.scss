@@ -119,11 +119,12 @@
   background-color: transparent;
   border: 0;
   position: absolute;
-  top: 15px;
+  top: 8px;
   right: 15px;
+  padding: 0;
   @media screen and(min-width:768px) {
-    top: 26px;
-    right: 0;
+    top: -2px;
+    // right: 0;
   }
 
   @media screen and(min-width:1280px) {
@@ -192,6 +193,7 @@
 }
 .close-btn {
   position: absolute;
+  padding: 0;
 
   @media screen and(max-width:767px) {
     top: 20px;
@@ -200,6 +202,16 @@
   @media screen and(min-width:768px) {
     top: 25px;
     right: 67px;
+  }
+}
+
+
+.reg-btn {
+  text-decoration: none;
+  display: inline-block;
+  line-height: 0.9;
+  @media screen and (min-width: 1280px) {
+    line-height: 1.33;
   }
 }
 
@@ -252,3 +264,4 @@
 
   }
 }
+
