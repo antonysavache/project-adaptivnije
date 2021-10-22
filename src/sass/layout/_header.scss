@@ -22,7 +22,6 @@
   }
 }
 .header-container {
-  position: relative;
 
   @media screen and(min-width:1280px) {
     padding-top: 31px;
@@ -201,5 +200,55 @@
   @media screen and(min-width:768px) {
     top: 25px;
     right: 67px;
+  }
+}
+
+
+.header-section {
+  background-image: url('../images/body/mobile/head-donuts1x.png');
+  background-position: -7% -28%;
+  background-size: 130px 164px;
+  background-repeat: no-repeat;
+
+  @media (min-device-pixel-ratio: 2) and (max-width: 767px),
+    (min-resolution: 192dpi) and (max-width: 767px),
+    (min-resolution: 2dppx) and (max-width: 767px) {
+      background-image: url('../images/body/mobile/head-donuts@2x.png');
+      background-position: -7% -28%;
+      background-size: 130px 164px;
+      background-repeat: no-repeat;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1279px) {
+    background-image: url('../images/body/tablet/head-donuts1x.png');
+    background-position: 75% 100%;
+    background-size: 378px 396px;
+    background-repeat: no-repeat;
+  }
+
+  @media (min-device-pixel-ratio: 2) and (min-width: 768px) and (max-width: 1279px),
+    (min-resolution: 192dpi) and (min-width: 768px) and (max-width: 1279px),
+    (min-resolution: 2dppx) and (min-width: 768px) and (max-width: 1279px) {
+    background-image: url('../images/body/tablet/head-donuts@2x.png');
+    background-position: 75% 100%;
+    background-size: 378px 396px;
+    background-repeat: no-repeat;
+  }
+
+  @media screen and (min-width: 1280px) {
+    background-image: url('../images/body/desktop/pic-donuts-1x.png'), url('../images/body/desktop/spoon-1x.png');
+    background-position: 126% 93%, -5% 120%;
+    background-size: 793px 780px, 220px 420px;
+    background-repeat: no-repeat;
+  }
+
+  @media (min-device-pixel-ratio: 2) and (min-width: 1280px),
+    (min-resolution: 192dpi) and (min-width: 1280px),
+    (min-resolution: 2dppx) and (min-width: 1280px) {
+    background-image: url('../images/body/desktop/pic-donuts-@2x.png');
+    background-position: 126% 93%, -5% 120%;
+    background-size: 793px 780px, 220px 420px;
+    background-repeat: no-repeat;
+
   }
 }

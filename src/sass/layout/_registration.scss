@@ -168,6 +168,7 @@
   }
 }
 
+
 .contact-section {
   padding-top: 25px;
   padding-bottom: 23px;
@@ -224,6 +225,7 @@
 .contact-text:nth-child(1) {
   margin-bottom: 25px;
 }
+
 
 @media screen and (min-width: 768px) {
   .registration-div {
@@ -312,13 +314,15 @@
   position: absolute;
   z-index: -1;
   content: '';
-  right: -75px;
+
+  right: -64px;
+
   top: 100px;
   width: 322px;
   height: 320px;
   background-image: url('../images/register/tablet/confetti-1x.png');
   background-size: 322px 320px;
-
+  overflow: hidden;
   @media screen and (max-width: 767px) {
     display: none;
 }
@@ -340,4 +344,10 @@
 }
 }
 
+.registration-input:not(:placeholder-shown):required:valid {
+  border-color:rgba(171, 129, 108, 0.5); 
+}
+.registration-input:not(:placeholder-shown):required:invalid {
+  border-color: red;
+}
 
