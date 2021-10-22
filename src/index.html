@@ -6,6 +6,12 @@
     <title>Oh My Donut</title>
     <link
       rel="stylesheet"
+      type="text/css"
+      href="./animate.css"
+    />
+
+    <link
+      rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css"
       integrity="sha512-Y0MM+V6ymRKN2zStTqzQ227DWhhp4Mzdo6gnlRnuaNCbc+YN/ZH0sBCLTM4M0oSy9c9VKiCvd4Jk44aCLrNS5Q=="
       crossorigin="anonymous"
@@ -38,15 +44,17 @@
   <body class="body-pics">
     <include src="./partials/header.html"></include>
     <main>
-      <include src="./partials/hero.html"></include>
-      <include src="./partials/menu.html"></include>
       <include src="./partials/about-us.html"></include>
       <include src="./partials/program.html"></include>
       <include src="./partials/reviews.html"></include>
       <include src="./partials/registration.html"></include>
-      <include src="./partials/contact.html"></include>
     </main>
     <include src="./partials/footer.html"></include>
+
+    <script src="./wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
     <script src="./js/mobile-menu.js">
     </script>
 
@@ -60,5 +68,6 @@
       src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
     ></script>
     <script src="./js/reviews.js"></script>
+    
   </body>
 </html>

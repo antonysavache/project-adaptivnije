@@ -14,15 +14,7 @@
 }
 
 .registration {
-  padding-top: 15px;
-  margin-bottom: 11px;
-  padding-bottom: 15px;
-}
-
-@media screen and (max-width: 767px) {
-  .registration {
-    padding-top: 38px;
-  }
+  margin-bottom: 26px;
 }
 
 .registration-time {
@@ -83,6 +75,7 @@
 
 @media screen and (max-width: 767px) {
   .reg-div {
+    padding-top: 40px;
     box-shadow: -4px -4px 4px rgba(171, 129, 108, 0.15), 4px 4px 4px rgba(171, 129, 108, 0.15);
     border-radius: 150px 150px 0 0;
     background-color: var(--body-bg);
@@ -175,6 +168,65 @@
   }
 }
 
+
+.contact-section {
+  padding-top: 25px;
+  padding-bottom: 23px;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    padding-top: 47px;
+    padding-bottom: 41px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .contact-input {
+    width: 410px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .contact-input {
+    width: 430px;
+  }
+}
+
+.contact-title {
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 22px;
+
+  text-align: center;
+
+  color: #2e2520;
+
+  @media screen and (min-width: 1280px) {
+    font-size: 18px;
+  }
+}
+.contact-button {
+  margin-top: 37px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-text:nth-child(1) {
+  margin-bottom: 25px;
+}
+
+
 @media screen and (min-width: 768px) {
   .registration-div {
     position: relative;
@@ -262,13 +314,15 @@
   position: absolute;
   z-index: -1;
   content: '';
+
   right: -64px;
+
   top: 100px;
   width: 322px;
   height: 320px;
   background-image: url('../images/register/tablet/confetti-1x.png');
   background-size: 322px 320px;
-
+  overflow: hidden;
   @media screen and (max-width: 767px) {
     display: none;
 }
