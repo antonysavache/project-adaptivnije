@@ -168,6 +168,7 @@
   }
 }
 
+
 .contact-section {
   padding-top: 25px;
   padding-bottom: 23px;
@@ -224,6 +225,7 @@
 .contact-text:nth-child(1) {
   margin-bottom: 25px;
 }
+
 
 @media screen and (min-width: 768px) {
   .registration-div {
@@ -312,7 +314,9 @@
   position: absolute;
   z-index: -1;
   content: '';
-  right: -75px;
+
+  right: -64px;
+
   top: 100px;
   width: 322px;
   height: 320px;
